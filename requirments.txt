@@ -1,0 +1,8 @@
+pandas
+numpy
+torch
+transformers
+pillow
+scikit-learn
+imbalanced-learn
+streamlit
