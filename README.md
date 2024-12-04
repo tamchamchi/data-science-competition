@@ -34,10 +34,11 @@
    - Ensure you have Python 3.11.9 installed on your machine.
 
 2. **Create and Activate a Virtual Environment**
-     # Create a virtual environment
-     `python -m venv venv`
-
-     # Activate the virtual environment
+     ```
+          # Create a virtual environment
+          python -m venv venv
+     ```
+3. **Activate the virtual environment**
      ```
           # On Windows:
           venv\Scripts\activate
@@ -45,7 +46,7 @@
           # On macOS/Linux:
           source venv/bin/activate
      ```
-     # Install Required Libraries
+4. **Install Required Libraries**
      ```
           # Upgrade pip
           pip install --upgrade pip
@@ -53,7 +54,7 @@
           # Install required libraries
           pip install -r requirements.txt
      ```
-     # Run the Streamlit Application
+5. **Run the Streamlit Application**
      ```
           streamlit run main.py
      ```
