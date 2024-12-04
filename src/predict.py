@@ -5,6 +5,7 @@ import joblib
 import numpy as np
 
 
+
 def predict(text, image):
      # Load label mapping
      label_mapping = {
@@ -17,6 +18,7 @@ def predict(text, image):
      clip_model = CLIP()
      vilt_model = ViLT()
      vit5_model = ViT5()
+
      
      # Extract features
      image_features_clip, text_features_clip = clip_model.extract_features(texts=[text], images=[image])

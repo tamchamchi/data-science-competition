@@ -6,3 +6,5 @@ pillow
 scikit-learn
 imbalanced-learn
 streamlit
+emoji
+matplotlib
