@@ -59,4 +59,9 @@
           streamlit run main.py
      ```
      
-
+## Author
+     - Nguyen Xuan Linh
+     - Nguyen Duy Tam Anh
+     - Nguyen Manh Tuong
+     - Nguyen The Vinh
+     - Nguyen Quoc Khanh
