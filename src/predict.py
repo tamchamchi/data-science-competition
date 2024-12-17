@@ -3,6 +3,7 @@ from src.models.vilt import ViLT
 from src.models.vit5 import ViT5
 import joblib
 import numpy as np
+from src.utils.preprocessing import clean_caption
 
 
 
@@ -19,7 +20,8 @@ def predict(text, image):
      vilt_model = ViLT()
      vit5_model = ViT5()
 
-     
+     text = clean_caption(text)
+
      # Extract features
      image_features_clip, text_features_clip = clip_model.extract_features(texts=[text], images=[image])
      features_vilt = vilt_model.extract_features(texts=[text], images=[image])
